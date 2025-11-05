@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: MRIClothing
+  name: Униформа Солдата "MRI"
+  description: Эта форма пропитана кровью коммунистов. На груди висит потёртый значок "MRI".
+  suffix: MRI
+  components:
+    - type: Sprite
+      sprite: _MRI/Clothing/Uniforms/Jumpsuit/mri_base.rsi
+    - type: Clothing
+      sprite: _MRI/Clothing/Uniforms/Jumpsuit/mri_base.rsi
