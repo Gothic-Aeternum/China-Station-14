@@ -1,0 +1,80 @@
+- type: entity
+  name: ПКМ
+  id: MRIWeaponLightMachineGunPKM # soswa
+  parent: [BaseWeaponLightMachineGun, BaseSyndicateContraband]
+  description: '"Белый череп на плече, у братишки "Печенег"..."'
+  suffix: MRI
+  components:
+  - type: Sprite
+    sprite: _MRI/Objects/Weapons/Guns/LMGs/pkm.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-2
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 3
+    zeroVisible: true
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,4,3
+  - type: Clothing
+    sprite: _MRI/Objects/Weapons/Guns/LMGs/pkm.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -20
+    maxAngle: -25
+  - type: Gun
+    minAngle: 24
+    maxAngle: 45
+    fireRate: 10
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/lmg.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+    requiresSkill: true # Corvax-Next-Skills
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/lmg_cock.ogg
+  - type: AmmoCounter
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MRIMagazineLightRifleBox
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifleBox
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+  - type: UseDelay
+    delay: 1
+  - type: Multishot # Goobstation
+    spreadMultiplier: 1.4

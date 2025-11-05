@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseItem
+  id: MRIRadio
+  name: радио
+  description: да да, радио
+  suffix: MRI
+  components:
+  - type: ItemToggle
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: radio  # Исправлено с old-radio на radio
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: radio  # Исправлено с old-radio на radio
+  - type: ItemToggleActiveSound
+    activeSound:
+      path: /Audio/_MRI/Music/ragtime.ogg
+      params:
+        maxDistance: 20
+  - type: UseDelay
+    delay: 1.0

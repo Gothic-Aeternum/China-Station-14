@@ -1,0 +1,29 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: MRIClothingNeckCloakANARCHY
+  name: плащ анархиста
+  description: Кажется, этот плащ не любит власть. Думаю это взаимно...
+  suffix: MRI
+  components:
+  - type: Sprite
+    sprite: _MRI/Clothing/Neck/Cloaks/anarchy.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: MRIClothingNeckCloakMRI
+  name: плащ МРИ
+  description: Плащ пахнет борьбой с коммунизмом
+  suffix: MRI
+  components:
+  - type: Sprite
+    sprite: _MRI/Clothing/Neck/Cloaks/mri.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: MRIClothingNeckCloakUSSP
+  name: плащ СССП
+  description: Этот выглядит как ... СЕРП И МОЛОТ
+  suffix: MRI
+  components:
+  - type: Sprite
+    sprite: _MRI/Clothing/Neck/Cloaks/ussp.rsi

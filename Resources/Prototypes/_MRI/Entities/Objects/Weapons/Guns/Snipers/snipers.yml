@@ -1,0 +1,67 @@
+- type: entity
+  name: СВД
+  parent: [BaseWeaponRifle, BaseGunWieldable, BaseSecurityContraband]
+  # "BaseWeaponRifle" Господь, я всё ещё твой верный слуга...
+  id: MRIWeaponSniperSVD # soswa
+  description: '"Мне кажется такое отношение друг к другу и к родине в крови у нашего народа."'
+  suffix: MRI
+  components:
+  - type: Sprite
+    sprite: _MRI/Objects/Weapons/Guns/Snipers/svd.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,5,1
+  - type: Clothing
+    sprite: _MRI/Objects/Weapons/Guns/Snipers/svd.rsi
+  - type: GunRequiresWield
+  - type: Gun
+    fireRate: 0.7
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.45
+    sprintModifier: 0.45
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 10 # Corvax-Next - Sniper rifles buff
+    pvsIncrease: 1.0 # Corvax-Next - Sniper rifles buff
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineAntiMateriel
+        insertSound: /Audio/Weapons/Guns/MagIn/rifle_load.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineAntiMateriel
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeAntiMateriel
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeAntiMateriel
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
