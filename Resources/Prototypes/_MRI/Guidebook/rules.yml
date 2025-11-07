@@ -1,0 +1,199 @@
+- type: guideEntry
+  id: MRIRuleset
+  name: Правила сервера
+  priority: 0
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/MrpRuleset.xml"
+  children:
+  - MRIRule0
+  - MRIRule1
+  - MRIRule2
+  - MRIRule3
+  - MRIRule31
+  - MRIRule32
+  - MRIRule33
+  - MRIRule34
+  - MRIRule35
+  - MRIRule36
+  - MRIRule37
+  - MRIRule38
+  - MRIRule39
+  - MRIRule4
+  - MRIRule41
+  - MRIRule42
+  - MRIRule5
+  - MRIRule6
+  - MRIRule7
+  - MRIRule8
+  - MRIRule9
+  - MRIRule91
+  - MRIRule92
+  - MRIRule10
+
+- type: guideEntry
+  id: MRIRule0
+  name: Правило 0
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule0.xml"
+
+- type: guideEntry
+  id: MRIRule1
+  name: Правило 1
+  priority: 2
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule1.xml"
+
+- type: guideEntry
+  id: MRIRule2
+  name: Правило 2
+  priority: 3
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule2.xml"
+
+- type: guideEntry
+  id: MRIRule3
+  name: Правило 3
+  priority: 4
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.xml"
+
+- type: guideEntry
+  id: MRIRule31
+  name: Правило 3.1
+  priority: 5
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.1.xml"
+
+- type: guideEntry
+  id: MRIRule32
+  name: Правило 3.2
+  priority: 6
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.2.xml"
+
+- type: guideEntry
+  id: MRIRule33
+  name: Правило 3.3
+  priority: 7
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.3.xml"
+
+- type: guideEntry
+  id: MRIRule34
+  name: Правило 3.4
+  priority: 8
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.4.xml"
+
+- type: guideEntry
+  id: MRIRule35
+  name: Правило 3.5
+  priority: 9
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.5.xml"
+
+- type: guideEntry
+  id: MRIRule36
+  name: Правило 3.6
+  priority: 10
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.6.xml"
+
+- type: guideEntry
+  id: MRIRule37
+  name: Правило 3.7
+  priority: 11
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.7.xml"
+
+- type: guideEntry
+  id: MRIRule38
+  name: Правило 3.8
+  priority: 12
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.8.xml"
+
+- type: guideEntry
+  id: MRIRule39
+  name: Правило 3.9
+  priority: 13
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule3.9.xml"
+
+- type: guideEntry
+  id: MRIRule4
+  name: Правило 4
+  priority: 14
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule4.xml"
+
+- type: guideEntry
+  id: MRIRule41
+  name: Правило 4.1
+  priority: 15
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule4.1.xml"
+
+- type: guideEntry
+  id: MRIRule42
+  name: Правило 4.2
+  priority: 16
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule4.2.xml"
+
+- type: guideEntry
+  id: MRIRule5
+  name: Правило 5
+  priority: 17
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule5.xml"
+
+- type: guideEntry
+  id: MRIRule6
+  name: Правило 6
+  priority: 18
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule6.xml"
+
+- type: guideEntry
+  id: MRIRule7
+  name: Правило 7
+  priority: 19
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule7.xml"
+
+- type: guideEntry
+  id: MRIRule8
+  name: Правило 8
+  priority: 20
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule8.xml"
+
+- type: guideEntry
+  id: MRIRule9
+  name: Правило 9
+  priority: 21
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule9.xml"
+
+- type: guideEntry
+  id: MRIRule91
+  name: Правило 9.1
+  priority: 22
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule9.1.xml"
+
+- type: guideEntry
+  id: MRIRule92
+  name: Правило 9.2
+  priority: 23
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule9.2.xml"
+
+- type: guideEntry
+  id: MRIRule10
+  name: Правило 10
+  priority: 24
+  ruleEntry: true
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/Rule10.xml"

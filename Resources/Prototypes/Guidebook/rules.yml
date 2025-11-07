@@ -22,7 +22,7 @@
   id: DefaultRuleset
   name: guide-entry-rules
   priority: 60
-  text: "/ServerInfo/_CorvaxGoob/Guidebook/ServerRules/MrpRuleset.xml" # CorvaxGoob-MRPRules
+  text: "/ServerInfo/_MRI/GuideBook/ServerRules/MrpRuleset.xml" # CorvaxGoob-MRPRules Чето тут поменять путь  /ServerInfo/_MRI/MrpRuleset.xml
   children:
   - CoreRules
   - RoleplayRules
