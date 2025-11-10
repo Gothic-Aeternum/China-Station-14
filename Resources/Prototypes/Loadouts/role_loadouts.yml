@@ -119,6 +119,9 @@
 - type: roleLoadout
   id: JobCaptain
   groups:
+  - Socks-Captain
+  - Top-Captain
+  - Bottom-Captain
   - Inventory # CorvaxGoob-loadouts
   - CaptainHead
   - CaptainNeck
@@ -139,6 +142,9 @@
 - type: roleLoadout
   id: JobHeadOfPersonnel
   groups:
+  - Socks-HeadofPersonnel
+  - Top-HeadofPersonnel
+  - Bottom-HeadofPersonnel
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - HoPHead
@@ -156,6 +162,7 @@
   - HoPEnvirosuit
   - HoPEnvirogloves
   - HoPGloves
+
 # Silicons
 - type: roleLoadout
   id: JobBorg
@@ -171,6 +178,9 @@
 - type: roleLoadout
   id: JobPassenger
   groups:
+  - Socks-Passenger
+  - Top-Passenger
+  - Bottom-Passenger
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - PassengerJumpsuit
@@ -193,6 +203,9 @@
 - type: roleLoadout
   id: JobBartender
   groups:
+  - Socks-Bartender
+  - Top-Bartender
+  - Bottom-Bartender
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - BartenderHead
@@ -212,6 +225,9 @@
 - type: roleLoadout
   id: JobServiceWorker
   groups:
+  - Socks-Service
+  - Top-Service
+  - Bottom-Service
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - BartenderJumpsuit
@@ -229,6 +245,9 @@
 - type: roleLoadout
   id: JobChef
   groups:
+  - Socks-Chef
+  - Top-Chef
+  - Bottom-Chef
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ChefHead
@@ -249,6 +268,9 @@
 - type: roleLoadout
   id: JobLibrarian
   groups:
+  - Socks-Librarian
+  - Top-Librarian
+  - Bottom-Librarian
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - LibrarianJumpsuit
@@ -266,6 +288,9 @@
 - type: roleLoadout
   id: JobLawyer
   groups:
+  - Socks-Lawyer
+  - Top-Lawyer
+  - Bottom-Lawyer
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - LawyerNeck
@@ -284,6 +309,9 @@
 - type: roleLoadout
   id: JobChaplain
   groups:
+  - Socks-Chaplain
+  - Top-Chaplain
+  - Bottom-Chaplain
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ChaplainHead
@@ -305,6 +333,9 @@
 - type: roleLoadout
   id: JobJanitor
   groups:
+  - Socks-Janitor
+  - Top-Janitor
+  - Bottom-Janitor
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - JanitorHead
@@ -326,6 +357,9 @@
 - type: roleLoadout
   id: JobBotanist
   groups:
+  - Socks-Botanist
+  - Top-Botanist
+  - Bottom-Botanist
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - BotanistHead
@@ -346,6 +380,9 @@
   id: JobClown
   canCustomizeName: true
   groups:
+  - Socks-Clown
+  - Top-Clown
+  - Bottom-Clown
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ClownHead
@@ -366,6 +403,9 @@
   id: JobMime
   canCustomizeName: true
   groups:
+  - Socks-Mime
+  - Top-Mime
+  - Bottom-Mime
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - MimeHead
@@ -387,6 +427,9 @@
 - type: roleLoadout
   id: JobMusician
   groups:
+  - Socks-Musician
+  - Top-Musician
+  - Bottom-Musician
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - MusicianJumpsuit
@@ -407,6 +450,9 @@
 - type: roleLoadout
   id: JobQuartermaster
   groups:
+  - Socks-Quartermaster
+  - Top-Quartermaster
+  - Bottom-Quartermaster
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - QuartermasterHead
@@ -428,6 +474,9 @@
 - type: roleLoadout
   id: JobCargoTechnician
   groups:
+  - Socks-CargoTechnician
+  - Top-CargoTechnician
+  - Bottom-CargoTechnician
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - CargoTechnicianHead
@@ -448,6 +497,9 @@
 - type: roleLoadout
   id: JobSalvageSpecialist
   groups:
+  - Socks-SalvageSpecialist
+  - Top-SalvageSpecialist
+  - Bottom-SalvageSpecialist
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - SalvageSpecialistNeck # Goobstation
@@ -468,6 +520,9 @@
 - type: roleLoadout
   id: JobChiefEngineer
   groups:
+  - Socks-ChiefEngineer
+  - Top-ChiefEngineer
+  - Bottom-ChiefEngineer
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ChiefEngineerHead
@@ -488,6 +543,9 @@
 - type: roleLoadout
   id: JobTechnicalAssistant
   groups:
+  - Socks-TechnicalAssistant
+  - Top-TechnicalAssistant
+  - Bottom-TechnicalAssistant
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - TechnicalAssistantJumpsuit
@@ -504,6 +562,9 @@
 - type: roleLoadout
   id: JobStationEngineer
   groups:
+  - Socks-Engineer
+  - Top-Engineer
+  - Bottom-Engineer
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - StationEngineerHead
@@ -524,6 +585,9 @@
 - type: roleLoadout
   id: JobAtmosphericTechnician
   groups:
+  - Socks-AtmosphericTechnician
+  - Top-AtmosphericTechnician
+  - Bottom-AtmosphericTechnician
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - AtmosphericTechnicianHead # Goobstation
@@ -544,6 +608,9 @@
 - type: roleLoadout
   id: JobResearchDirector
   groups:
+  - Socks-ResearchDirector
+  - Top-ResearchDirector
+  - Bottom-ResearchDirector
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ResearchDirectorHead
@@ -566,6 +633,9 @@
 - type: roleLoadout
   id: JobScientist
   groups:
+  - Socks-Scientist
+  - Top-Scientist
+  - Bottom-Scientist
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ScientistHead
@@ -589,6 +659,9 @@
 - type: roleLoadout
   id: JobResearchAssistant
   groups:
+  - Socks-ResearchAssistant
+  - Top-ResearchAssistant
+  - Bottom-ResearchAssistant
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ResearchAssistantJumpsuit
@@ -607,6 +680,9 @@
 - type: roleLoadout
   id: JobHeadOfSecurity
   groups:
+  - Socks-HoS
+  - Top-HoS
+  - Bottom-HoS
   - Inventory # CorvaxGoob-loadouts
   - HeadofSecurityHead
   - HeadofSecurityNeck
@@ -630,6 +706,9 @@
 - type: roleLoadout
   id: JobWarden
   groups:
+  - Socks-Warden
+  - Top-Warden
+  - Bottom-Warden
   - Inventory # CorvaxGoob-loadouts
   - WardenHead
   - WardenJumpsuit
@@ -652,6 +731,9 @@
 - type: roleLoadout
   id: JobSecurityOfficer
   groups:
+  - Socks-SecurityOfficer
+  - Top-SecurityOfficer
+  - Bottom-SecurityOfficer
   - Inventory # CorvaxGoob-loadouts
   - SecurityHead
   - SecurityJumpsuit
@@ -675,6 +757,9 @@
 - type: roleLoadout
   id: JobDetective
   groups:
+  - Socks-Detective
+  - Top-Detective
+  - Bottom-Detective
   - Inventory # CorvaxGoob-loadouts
   - DetectiveHead
   - DetectiveNeck
@@ -696,6 +781,9 @@
 - type: roleLoadout
   id: JobSecurityCadet
   groups:
+  - Socks-Cadet
+  - Top-Cadet
+  - Bottom-Cadet
   - Inventory # CorvaxGoob-loadouts
   - SecurityCadetJumpsuit
   - SecurityBackpack
@@ -715,6 +803,9 @@
 - type: roleLoadout
   id: JobChiefMedicalOfficer
   groups:
+  - Socks-CMO
+  - Top-CMO
+  - Bottom-CMO
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ChiefMedicalOfficerHead
@@ -738,6 +829,9 @@
 - type: roleLoadout
   id: JobMedicalDoctor
   groups:
+  - Socks-Doctor
+  - Top-Doctor
+  - Bottom-Doctor
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - MedicalDoctorHead
@@ -761,6 +855,9 @@
 - type: roleLoadout
   id: JobMedicalIntern
   groups:
+  - Socks-Intern
+  - Top-Intern
+  - Bottom-Intern
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - MedicalInternJumpsuit
@@ -778,6 +875,9 @@
 - type: roleLoadout
   id: JobChemist
   groups:
+  - Socks-Chemist
+  - Top-Chemist
+  - Bottom-Chemist
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ChemistHead # Goobstation
@@ -799,6 +899,9 @@
 - type: roleLoadout
   id: JobParamedic
   groups:
+  - Socks-Paramedic
+  - Top-Paramedic
+  - Bottom-Paramedic
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ParamedicHead
@@ -822,6 +925,9 @@
 - type: roleLoadout
   id: JobZookeeper
   groups:
+  - Socks-Zoo
+  - Top-Zoo
+  - Bottom-Zoo
   - Inventory # CorvaxGoob-loadouts
   - ZookeeperHead
   - ZookeeperJumpsuit
@@ -840,6 +946,9 @@
 - type: roleLoadout
   id: JobReporter
   groups:
+  - Socks-Reporter
+  - Top-Reporter
+  - Bottom-Reporter
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - ReporterJumpsuit
@@ -858,6 +967,9 @@
 - type: roleLoadout
   id: JobPsychologist
   groups:
+  - Socks-Psychologist
+  - Top-Psychologist
+  - Bottom-Psychologist
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - PsychologistJumpsuit
@@ -875,6 +987,9 @@
 - type: roleLoadout
   id: JobBoxer
   groups:
+  - Socks-Boxer
+  - Top-Boxer
+  - Bottom-Boxer
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - BoxerJumpsuit
