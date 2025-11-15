@@ -49,7 +49,31 @@
   - ClothingUnderwearBottomBoxersBlueShieldOfficer
   - ClothingUnderwearBottomPantiesBlueShieldOfficer
 
-  # HoP
+# Bartender, Chef, Janitor, etc...
+- type: loadoutGroup
+  id: Socks-Bartender
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksBartender
+
+- type: loadoutGroup
+  id: Top-Bartender
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraBartender
+
+- type: loadoutGroup
+  id: Bottom-Bartender
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersBartender
+  - ClothingUnderwearBottomPantiesBartender # HoP
 - type: loadoutGroup
   id: Socks-HeadofPersonnel
   name: loadout-group-socks
@@ -75,83 +99,6 @@
   - ClothingUnderwearBottomBoxersHeadofPersonnel
   - ClothingUnderwearBottomPantiesHeadofPersonnel
 
-# Bartender, Chef, Janitor, etc...
-- type: loadoutGroup
-  id: Socks-Bartender
-  name: loadout-group-socks
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearSocksBartender
-
-- type: loadoutGroup
-  id: Top-Bartender
-  name: loadout-group-top
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearTopBraBartender
-
-- type: loadoutGroup
-  id: Bottom-Bartender
-  name: loadout-group-bottom
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearBottomBoxersBartender
-  - ClothingUnderwearBottomPantiesBartender# HoP
-- type: loadoutGroup
-  id: Socks-HeadofPersonnel
-  name: loadout-group-socks
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearSocksHeadofPersonnel
-
-- type: loadoutGroup
-  id: Top-HeadofPersonnel
-  name: loadout-group-top
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearTopBraHeadofPersonnel
-
-- type: loadoutGroup
-  id: Bottom-HeadofPersonnel
-  name: loadout-group-bottom
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearBottomBoxersHeadofPersonnel
-  - ClothingUnderwearBottomPantiesHeadofPersonnel
-
-# Bartender, Chef, Janitor, etc...
-- type: loadoutGroup
-  id: Socks-Bartender
-  name: loadout-group-socks
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearSocksBartender
-
-- type: loadoutGroup
-  id: Top-Bartender
-  name: loadout-group-top
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearTopBraBartender
-
-- type: loadoutGroup
-  id: Bottom-Bartender
-  name: loadout-group-bottom
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - ClothingUnderwearBottomBoxersBartender
-  - ClothingUnderwearBottomPantiesBartender
-
-  # HoS - КРАШИТСЯ!!! --------------------------------------------------------------------------------------------------------------------------------------
 - type: loadoutGroup
   id: Socks-HoS
   name: loadout-group-socks
@@ -167,7 +114,7 @@
   minLimit: 0
   maxLimit: 1
   loadouts:
-  - ClothingUnderwearTopBraHos
+  - ClothingUnderwearTopBraHoS
 
 - type: loadoutGroup
   id: Bottom-HoS

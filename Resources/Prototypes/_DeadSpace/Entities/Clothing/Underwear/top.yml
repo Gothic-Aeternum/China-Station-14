@@ -622,7 +622,7 @@
 
 - type: entity
   parent: ClothingUnderwearTopBase
-  id: ClothingUnderwearTopBraHos
+  id: ClothingUnderwearTopBraHoS
   name: бра главы службы безопасности
   description: Стандартное нижнее бельё главы службы безопасности.
   components:

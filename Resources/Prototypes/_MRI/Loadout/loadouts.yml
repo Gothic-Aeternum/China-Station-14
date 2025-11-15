@@ -149,12 +149,12 @@
 
 #HoS
 - type: loadout
-  id: ClothingUnderwearTopBraHos
+  id: ClothingUnderwearTopBraHoS
   equipment:
-    undershirt: ClothingUnderwearTopBraHos
+    undershirt: ClothingUnderwearTopBraHoS
 
 - type: loadout
-  id: ClothingUnderwearBottomBoxersHoss
+  id: ClothingUnderwearBottomBoxersHoS
   equipment:
     underpants: ClothingUnderwearBottomBoxersHoS
 
