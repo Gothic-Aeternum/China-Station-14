@@ -1,0 +1,54 @@
+[game]
+hostname = "⋆ MRI Station[MRP][+18][RU]"
+desc = "MRI Station — место, где ты решаешь судьбу!\n\n👤 - Ты можешь отыграть любой сценарий, который придёт тебе в голову. ( Кроме тех, что нарушают правила )\n\n🧑‍💻 - Понаблюдать за людьми и ощутить всю мощь RP.\n\n😭 - Получить помощь от добродушного состава администрации, если ты новичок и не разбираешься в механиках игры.\n\n📝 - Мы открылись недавно и планируем развиваться, добавляя уникальные роли и события.\n\n✨ - Присоединяйся к нам в Discord и стань частью нашей маленькой, но сильной семьи! "
+maxplayers = 40
+soft_max_players = 30
+map_rotation = true
+lobbyduration = 240
+round_restart_time = 180
+fallbackpreset = "extended"
+lobbyenabled = true
+role_timers = false
+contraband_examine = false
+
+[infolinks]
+discord = "https://discord.gg/KKeeVEU3rg"
+
+
+[server]
+lobby_name = "MRI Station"
+rules_file = "MRIRuleset"
+
+[admin]
+see_own_notes = true
+admins_count_in_playercount = true
+
+[rules]
+time = 30.0
+
+[hub]
+advertise = true
+tags = "lang:ru,region:eu_e,region:luna,region:as_n,rp:low,rp:med,"
+
+[vote]
+restart_required_ratio = 0.50
+same_type_timeout = 300.0
+timerrestart = 60
+map_enabled = true
+
+[ic]
+flavor_text = true
+punctuation = true
+
+[ghost]
+role_time = 10
+
+[discord]
+# Webhook to send adminhelp messages to.
+ahelp_webhook = "https://discord.com/api/webhooks/1407453183977979994/4I4kKGOEuYtzI68f5cgWwp_1GlmfSvEtDJHIn6YTOlPw7MrYK91wKqIn1OWMM0alaxZa"
+
+# Webhook to send round status messages to.
+round_update_webhook = "https://discord.com/api/webhooks/1407452914750062734/jdR7sutozxgKfSdul0FGUPQF2xEp167gELVvIUE_CBx1OQkZrnY-gZs_CMCgHWQ-wv97"
+
+# Optionally, a role ID to ping when the round has ended.
+round_end_role = "1407478729885880369"
