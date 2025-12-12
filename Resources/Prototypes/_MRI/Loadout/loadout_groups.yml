@@ -1,0 +1,1041 @@
+- type: loadoutGroup
+  id: Socks-Captain
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksCaptain
+
+- type: loadoutGroup
+  id: Top-Captain
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraCaptain
+
+- type: loadoutGroup
+  id: Bottom-Captain
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersCaptain
+  - ClothingUnderwearBottomPantiesCaptain
+
+# BlueShield
+- type: loadoutGroup
+  id: Socks-BlueShield
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksBlueShieldOfficer
+
+- type: loadoutGroup
+  id: Top-BlueShield
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraBlueShieldOfficer
+
+- type: loadoutGroup
+  id: Bottom-BlueShield
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersBlueShieldOfficer
+  - ClothingUnderwearBottomPantiesBlueShieldOfficer
+
+# Bartender, Chef, Janitor, etc...
+- type: loadoutGroup
+  id: Socks-Bartender
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksBartender
+
+- type: loadoutGroup
+  id: Top-Bartender
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraBartender
+
+- type: loadoutGroup
+  id: Bottom-Bartender
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersBartender
+  - ClothingUnderwearBottomPantiesBartender # HoP
+- type: loadoutGroup
+  id: Socks-HeadofPersonnel
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksHeadofPersonnel
+
+- type: loadoutGroup
+  id: Top-HeadofPersonnel
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraHeadofPersonnel
+
+- type: loadoutGroup
+  id: Bottom-HeadofPersonnel
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersHeadofPersonnel
+  - ClothingUnderwearBottomPantiesHeadofPersonnel
+
+- type: loadoutGroup
+  id: Socks-HoS
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksHoS
+  - ClothingUnderwearWomenSocksHoS
+
+- type: loadoutGroup
+  id: Top-HoS
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraHoS
+
+- type: loadoutGroup
+  id: Bottom-HoS
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersHoS
+  - ClothingUnderwearBottomPantiesHoS
+
+# Security Officer
+- type: loadoutGroup
+  id: Socks-SecurityOfficer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksSecurityOfficer
+  - ClothingUnderwearWomenSocksSecurityOfficer
+
+- type: loadoutGroup
+  id: Top-SecurityOfficer
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraSecurityOfficer
+
+- type: loadoutGroup
+  id: Bottom-SecurityOfficer
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersSecurityOfficer
+  - ClothingUnderwearBottomPantiesSecurityOfficer
+
+  # Warden
+- type: loadoutGroup
+  id: Socks-Warden
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksWarden
+  - ClothingUnderwearWomenSocksWarden
+
+- type: loadoutGroup
+  id: Top-Warden
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraWarden
+
+- type: loadoutGroup
+  id: Bottom-Warden
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersWarden
+  - ClothingUnderwearBottomPantiesWarden
+
+# Detective
+- type: loadoutGroup
+  id: Socks-Detective
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksDetective
+  - ClothingUnderwearWomenSocksDetective
+
+- type: loadoutGroup
+  id: Top-Detective
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraDetective
+
+- type: loadoutGroup
+  id: Bottom-Detective
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersDetective
+  - ClothingUnderwearBottomPantiesDetective
+
+# Brigmedic
+- type: loadoutGroup
+  id: Socks-Brigmedic
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksBrigmedic
+  - ClothingUnderwearWomenSocksBrigmedic
+
+- type: loadoutGroup
+  id: Top-Brigmedic
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraBrigmedic
+
+- type: loadoutGroup
+  id: Bottom-Brigmedic
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersBrigmedic
+  - ClothingUnderwearBottomPantiesBrigmedic
+
+# Cadet
+- type: loadoutGroup
+  id: Socks-Cadet
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksCadet
+  - ClothingUnderwearWomenSocksCadet
+
+- type: loadoutGroup
+  id: Top-Cadet
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraCadet
+
+- type: loadoutGroup
+  id: Bottom-Cadet
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersCadet
+  - ClothingUnderwearBottomPantiesCadet
+
+  # IAA
+- type: loadoutGroup
+  id: Socks-IAA
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksIAA
+
+- type: loadoutGroup
+  id: Top-IAA
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraIAA
+
+- type: loadoutGroup
+  id: Bottom-IAA
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersIAA
+  - ClothingUnderwearBottomPantiesIAA
+
+# Lawyer
+- type: loadoutGroup
+  id: Socks-Lawyer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksLawyer
+
+- type: loadoutGroup
+  id: Top-Lawyer
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraLawyer
+
+- type: loadoutGroup
+  id: Bottom-Lawyer
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersLawyer
+  - ClothingUnderwearBottomPantiesLawyer
+
+  # CMO
+- type: loadoutGroup
+  id: Socks-CMO
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksCMO
+
+- type: loadoutGroup
+  id: Top-CMO
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraCMO
+
+- type: loadoutGroup
+  id: Bottom-CMO
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersCMO
+  - ClothingUnderwearBottomPantiesCMO
+
+# Doctor
+- type: loadoutGroup
+  id: Socks-Doctor
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksDoctor
+
+- type: loadoutGroup
+  id: Top-Doctor
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraDoctor
+
+- type: loadoutGroup
+  id: Bottom-Doctor
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersDoctor
+  - ClothingUnderwearBottomPantiesDoctor
+
+  # Chemist
+- type: loadoutGroup
+  id: Socks-Chemist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksChemist
+
+- type: loadoutGroup
+  id: Top-Chemist
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraChemist
+
+- type: loadoutGroup
+  id: Bottom-Chemist
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersChemist
+  - ClothingUnderwearBottomPantiesChemist
+
+# Paramedic
+- type: loadoutGroup
+  id: Socks-Paramedic
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksParamedic
+
+- type: loadoutGroup
+  id: Top-Paramedic
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraParamedic
+
+- type: loadoutGroup
+  id: Bottom-Paramedic
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersParamedic
+  - ClothingUnderwearBottomPantiesParamedic
+
+# Psychologist
+- type: loadoutGroup
+  id: Socks-Psychologist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksPsychologist
+
+- type: loadoutGroup
+  id: Top-Psychologist
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraPsychologist
+
+- type: loadoutGroup
+  id: Bottom-Psychologist
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersPsychologist
+  - ClothingUnderwearBottomPantiesPsychologist
+
+# Intern
+- type: loadoutGroup
+  id: Socks-Intern
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksIntern
+
+- type: loadoutGroup
+  id: Top-Intern
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraIntern
+
+- type: loadoutGroup
+  id: Bottom-Intern
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersIntern
+  - ClothingUnderwearBottomPantiesIntern
+
+  # Chief Engineer
+- type: loadoutGroup
+  id: Socks-ChiefEngineer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksChiefEngineer
+
+- type: loadoutGroup
+  id: Top-ChiefEngineer
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraChiefEngineer
+
+- type: loadoutGroup
+  id: Bottom-ChiefEngineer
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersChiefEngineer
+  - ClothingUnderwearBottomPantiesChiefEngineer
+
+# Engineer
+- type: loadoutGroup
+  id: Socks-Engineer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksEngineer
+
+- type: loadoutGroup
+  id: Top-Engineer
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraEngineer
+
+- type: loadoutGroup
+  id: Bottom-Engineer
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersEngineer
+  - ClothingUnderwearBottomPantiesEngineer
+
+# Atmospheric Technician
+- type: loadoutGroup
+  id: Socks-AtmosphericTechnician
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksAtmos
+
+- type: loadoutGroup
+  id: Top-AtmosphericTechnician
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraAtmosphericTechnician
+
+- type: loadoutGroup
+  id: Bottom-AtmosphericTechnician
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersAtmosphericTechnician
+  - ClothingUnderwearBottomPantiesAtmosphericTechnician
+
+# Technical Assistant
+- type: loadoutGroup
+  id: Socks-TechnicalAssistant
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksTechnicalAssistant
+
+- type: loadoutGroup
+  id: Top-TechnicalAssistant
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraTechnicalAssistant
+
+- type: loadoutGroup
+  id: Bottom-TechnicalAssistant
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersTechnicalAssistant
+  - ClothingUnderwearBottomPantiesTechnicalAssistant
+
+  # Research Director
+- type: loadoutGroup
+  id: Socks-ResearchDirector
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksResearchDirector
+
+- type: loadoutGroup
+  id: Top-ResearchDirector
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraResearchDirector
+
+- type: loadoutGroup
+  id: Bottom-ResearchDirector
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersResearchDirector
+  - ClothingUnderwearBottomPantiesResearchDirector
+
+# Scientist
+- type: loadoutGroup
+  id: Socks-Scientist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksScientist
+
+- type: loadoutGroup
+  id: Top-Scientist
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraScientist
+
+- type: loadoutGroup
+  id: Bottom-Scientist
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersScientist
+  - ClothingUnderwearBottomPantiesScientist
+
+# Research Assistant
+- type: loadoutGroup
+  id: Socks-ResearchAssistant
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksResearchAssistant
+
+- type: loadoutGroup
+  id: Top-ResearchAssistant
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraResearchAssistant
+
+- type: loadoutGroup
+  id: Bottom-ResearchAssistant
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersResearchAssistant
+  - ClothingUnderwearBottomPantiesResearchAssistant
+
+  # Quartermaster
+- type: loadoutGroup
+  id: Socks-Quartermaster
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksQuartermaster
+
+- type: loadoutGroup
+  id: Top-Quartermaster
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraQuartermaster
+
+- type: loadoutGroup
+  id: Bottom-Quartermaster
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersQuartermaster
+  - ClothingUnderwearBottomPantiesQuartermaster
+
+# Cargo Technician
+- type: loadoutGroup
+  id: Socks-CargoTechnician
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksCargoTech
+
+- type: loadoutGroup
+  id: Top-CargoTechnician
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraCargoTechnician
+
+- type: loadoutGroup
+  id: Bottom-CargoTechnician
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersCargoTechnician
+  - ClothingUnderwearBottomPantiesCargoTechnician
+
+# Salvage Specialist
+- type: loadoutGroup
+  id: Socks-SalvageSpecialist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksSalvage
+
+- type: loadoutGroup
+  id: Top-SalvageSpecialist
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraSalvageSpecialist
+
+- type: loadoutGroup
+  id: Bottom-SalvageSpecialist
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersSalvageSpecialist
+  - ClothingUnderwearBottomPantiesSalvageSpecialist
+
+# Chef
+- type: loadoutGroup
+  id: Socks-Chef
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksChef
+
+- type: loadoutGroup
+  id: Top-Chef
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraChef
+
+- type: loadoutGroup
+  id: Bottom-Chef
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersChef
+  - ClothingUnderwearBottomPantiesChef
+
+# Botanist
+- type: loadoutGroup
+  id: Socks-Botanist
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksBotanist
+
+- type: loadoutGroup
+  id: Top-Botanist
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraBotanist
+
+- type: loadoutGroup
+  id: Bottom-Botanist
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersBotanist
+  - ClothingUnderwearBottomPantiesBotanist
+
+# Janitor
+- type: loadoutGroup
+  id: Socks-Janitor
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksJanitor
+
+- type: loadoutGroup
+  id: Top-Janitor
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraJanitor
+
+- type: loadoutGroup
+  id: Bottom-Janitor
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersJanitor
+  - ClothingUnderwearBottomPantiesJanitor
+
+# Librarian
+- type: loadoutGroup
+  id: Socks-Librarian
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksLibrarian
+
+- type: loadoutGroup
+  id: Top-Librarian
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraLibrarian
+
+- type: loadoutGroup
+  id: Bottom-Librarian
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersLibrarian
+  - ClothingUnderwearBottomPantiesLibrarian
+
+# Chaplain
+- type: loadoutGroup
+  id: Socks-Chaplain
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksChaplain
+
+- type: loadoutGroup
+  id: Top-Chaplain
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraChaplain
+
+- type: loadoutGroup
+  id: Bottom-Chaplain
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersChaplain
+  - ClothingUnderwearBottomPantiesChaplain
+
+# Clown
+- type: loadoutGroup
+  id: Socks-Clown
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksClown
+
+- type: loadoutGroup
+  id: Top-Clown
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraClown
+
+- type: loadoutGroup
+  id: Bottom-Clown
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersClown
+  - ClothingUnderwearBottomPantiesClown
+
+# Mime
+- type: loadoutGroup
+  id: Socks-Mime
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksMime
+
+- type: loadoutGroup
+  id: Top-Mime
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraMime
+
+- type: loadoutGroup
+  id: Bottom-Mime
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersMime
+  - ClothingUnderwearBottomPantiesMime
+
+# Musician
+- type: loadoutGroup
+  id: Socks-Musician
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksMusician
+
+- type: loadoutGroup
+  id: Top-Musician
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraMusician
+
+- type: loadoutGroup
+  id: Bottom-Musician
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersMusician
+  - ClothingUnderwearBottomPantiesMusician
+
+# Boxer
+- type: loadoutGroup
+  id: Socks-Boxer
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksBoxer
+
+- type: loadoutGroup
+  id: Top-Boxer
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraBoxer
+
+- type: loadoutGroup
+  id: Bottom-Boxer
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersBoxer
+  - ClothingUnderwearBottomPantiesBoxer
+
+# Reporter
+- type: loadoutGroup
+  id: Socks-Reporter
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksReporter
+
+- type: loadoutGroup
+  id: Top-Reporter
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraReporter
+
+- type: loadoutGroup
+  id: Bottom-Reporter
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersReporter
+  - ClothingUnderwearBottomPantiesReporter
+
+# Zoo
+- type: loadoutGroup
+  id: Socks-Zoo
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksZoo
+
+- type: loadoutGroup
+  id: Top-Zoo
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraZoo
+
+- type: loadoutGroup
+  id: Bottom-Zoo
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersZoo
+  - ClothingUnderwearBottomPantiesZoo
+
+# Service
+- type: loadoutGroup
+  id: Socks-Service
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearSocksService
+
+- type: loadoutGroup
+  id: Top-Service
+  name: loadout-group-top
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearTopBraService
+
+- type: loadoutGroup
+  id: Bottom-Service
+  name: loadout-group-bottom
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ClothingUnderwearBottomBoxersService
+  - ClothingUnderwearBottomPantiesService
