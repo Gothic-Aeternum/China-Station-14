@@ -69,6 +69,9 @@
     cost: 650
   - id: DoubleEmergencyNitrogenTankFilled
     cost: 650
+  - id: DeathRattleLavalandImplanter
+    cost: 700
+    overrideName: shop-listing-deathrattle-implant-lavaland # stupid implanter structure raagh
   - id: ClothingMaskWeldingGas
     cost: 750
   - id: LavalandJaunter
@@ -134,7 +137,7 @@
   - id: ShelterCapsuleLuxury
     cost: 3000
   - id: ClothingBackpackDuffelSalvageSCAF # Corvax-Goob SCAF
-    cost: 7000
+    cost: 3000
   - id: ClothingEyesNightVisionGoggles
     cost: 3500
   - id: MiningDrillDiamond
