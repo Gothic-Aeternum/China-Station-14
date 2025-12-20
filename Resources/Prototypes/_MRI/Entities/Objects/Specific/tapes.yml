@@ -493,3 +493,59 @@
     state: tape35
   - type: MusicTape
     sound: "/Audio/_MRI/TapePlayer/Tracks/egorbez-kah.ogg"
+
+#Lawcraft
+- type: entity
+  parent: BaseMusicTape
+  id: MusicTape44
+  name: Кассета (ИПВ - Погляди на небо)
+  description:
+  components:
+  - type: Sprite
+    state: tape36
+  - type: MusicTape
+    sound: "/Audio/_MRI/TapePlayer/Tracks/Instruction-vizivanie.ogg"
+
+- type: entity
+  parent: BaseMusicTape
+  id: MusicTape45
+  name: Кассета (Эпидемия - жизнь в сумерках)
+  description:
+  components:
+  - type: Sprite
+    state: tape37
+  - type: MusicTape
+    sound: "/Audio/_MRI/TapePlayer/Tracks/EpidemyaChego.ogg"
+
+- type: entity
+  parent: BaseMusicTape
+  id: MusicTape49
+  name: Кассета (Терпи - Тархун mz)
+  description:
+  components:
+  - type: Sprite
+    state: tape38
+  - type: MusicTape
+    sound: "/Audio/_MRI/TapePlayer/Tracks/Tarhun-terpi.ogg"
+
+- type: entity
+  parent: BaseMusicTape
+  id: MusicTape50
+  name: Кассета (Аквариум - Стаканы)
+  description:
+  components:
+  - type: Sprite
+    state: tape39
+  - type: MusicTape
+    sound: "/Audio/_MRI/TapePlayer/Tracks/akvariym.ogg"
+
+- type: entity
+  parent: BaseMusicTape
+  id: MusicTape51
+  name: Кассета (Гражданская Оборона - Долгая Счастливая Жизнь)
+  description:
+  components:
+  - type: Sprite
+    state: tape40
+  - type: MusicTape
+    sound: "/Audio/_MRI/TapePlayer/Tracks/DolgayaSchastlivayaShizn.ogg"
