@@ -1,0 +1,80 @@
+- type: entity
+  parent: PosterBase
+  id: PosterMRISenya
+  name: плакат "Сени Злого"
+  description: Там изображен козёл. Судя по всему это его олицетворение.
+  components:
+    - type: Sprite
+      sprite: _MRI/Misc/Pictures/MRIAdmins.rsi
+      state: senya
+
+- type: entity
+  parent: PosterBase
+  id: PosterMRIDantist
+  name: плакат "Дантиста"
+  description: Там изображен гордый солдат. Судя по всему это его олицетворение.
+  components:
+    - type: Sprite
+      sprite: _MRI/Misc/Pictures/MRIAdmins.rsi
+      state: dantist
+
+- type: entity
+  parent: PosterBase
+  id: PosterMRISoldat
+  name: плакат "солдат"
+  description: ???
+  components:
+    - type: Sprite
+      sprite: _MRI/Misc/Pictures/MRIAdmins.rsi
+      state: leviymyzhki
+
+- type: entity
+  parent: PosterBase
+  id: PosterMRI
+  name: плакат "Мри"
+  description: Плакат мри! Черт возьми, слава сссп!
+  components:
+    - type: Sprite
+      sprite: _MRI/Misc/Pictures/MRIAdmins.rsi
+      state: Mri
+
+- type: entity
+  parent: PosterBase
+  id: PosterMRIDanya
+  name: плакат " Даня, ты что обиделся? "
+  description: Че блять? На плакате написано " Даня, ты что обиделся? "
+  components:
+    - type: Sprite
+      sprite: _MRI/Misc/Pictures/MRIAdmins.rsi
+      state: Danya
+
+- type: entity
+  parent: PosterBase
+  id: PosterMRIDabadar
+  name: плакат " дабадара ""
+  description: Дабадар, крутой кот на аватарке
+  components:
+    - type: Sprite
+      sprite: _MRI/Misc/Pictures/MRIAdmins.rsi
+      state: dabadar
+
+      
+- type: entity
+  parent: PosterBase
+  id: PosterMRILawcraft
+  name: плакат " Лавкрафт ""
+  description: Привет лавкрафт
+  components:
+    - type: Sprite
+      sprite: _MRI/Misc/Pictures/MRIAdmins.rsi
+      state: lawcraft
+
+- type: entity
+  parent: PosterBase
+  id: PosterMRISammy
+  name: плакат " Сэмми"
+  description: Жесткий абузер.
+  components:
+    - type: Sprite
+      sprite: _MRI/Misc/Pictures/MRIAdmins.rsi
+      state: sammy
