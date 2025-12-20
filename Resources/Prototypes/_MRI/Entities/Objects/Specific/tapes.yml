@@ -481,3 +481,15 @@
     state: tape34
   - type: MusicTape
     sound: "/Audio/_MRI/TapePlayer/Tracks/slozizimi.ogg"
+
+#Dabadar
+- type: entity
+  parent: BaseMusicTape
+  id: MusicTape43
+  name: Кассета (Egorbez - kah )
+  description:
+  components:
+  - type: Sprite
+    state: tape35
+  - type: MusicTape
+    sound: "/Audio/_MRI/TapePlayer/Tracks/egorbez-kah.ogg"
